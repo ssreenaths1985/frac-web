@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Review container List view 1`] = `
+<div
+  className="bordered custom-full-height-4 custom-body-bg col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9"
+  id="masterColumn3"
+>
+  <div
+    className="row p-0 mt-5 col-12 justify-content-center"
+    id="listView"
+  >
+    <div
+      className="col-12"
+    >
+      <div
+        className="row col-lg-3 offset-lg-1 offset-1 col-10"
+      >
+        <div
+          className="col-9 p-0"
+          id="officerBucketsList"
+        >
+          <input
+            aria-describedby="basic-addon1"
+            aria-label="Search"
+            className="form-control mb-4 custom-search-5 custom-search-bar-2"
+            id="searchNode"
+            placeholder="Search for an item"
+            style={
+              Object {
+                "marginLeft": "-1em",
+                "width": "133%",
+              }
+            }
+            type="text"
+          />
+        </div>
+        <div
+          className="col-3"
+        />
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 ml-5 mr-2 mb-3 ml-xs-3 ml-sm-3 ml-md-0 ml-lg-0 ml-xl-0"
+    >
+      <div
+        className="row p-0 mb-3"
+      >
+        <h3>
+          Unverified
+        </h3>
+        <h5
+          className="pl-3"
+        >
+          0
+        </h5>
+      </div>
+      <div
+        className="custom-list-height remove-scroll-x"
+        id="unverifiedList"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 ml-5 ml-xs-5 ml-sm-5 ml-md-3 ml-lg-3 ml-xl-3 mr-2 mb-3 ml-xs-3 ml-sm-3 ml-md-0 ml-lg-0 ml-xl-0"
+    >
+      <div
+        className="row p-0 mb-3"
+      >
+        <h3>
+          Verified
+        </h3>
+        <h5
+          className="pl-3"
+        >
+           
+        </h5>
+      </div>
+      <div
+        className="custom-list-height remove-scroll-x"
+        id="verifiedList"
+      />
+    </div>
+    <div
+      className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 ml-5 ml-xs-5 ml-sm-5 ml-md-3 ml-lg-3 ml-xl-3 mr-2 mb-3 ml-xs-3 ml-sm-3 ml-md-0 ml-lg-0 ml-xl-0"
+    >
+      <div
+        className="row p-0 mb-3"
+      >
+        <h3>
+          Rejected
+        </h3>
+        <h5
+          className="pl-3"
+        />
+      </div>
+      <div
+        className="custom-list-height remove-scroll-x"
+        id="rejectedList"
+      />
+    </div>
+  </div>
+</div>
+`;

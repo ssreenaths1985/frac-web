@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="149px" viewBox="0 0 200 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>knowledge resource_empty</title>
+    <defs>
+        <linearGradient x1="81.3796668%" y1="17.1321521%" x2="-22.330957%" y2="83.228259%" id="linearGradient-1">
+            <stop stop-color="#E4E4E4" offset="0%"></stop>
+            <stop stop-color="#B1B1B1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="65.5410313%" y1="7.04900198%" x2="38.6987095%" y2="108.28496%" id="linearGradient-2">
+            <stop stop-color="#EAEAEA" offset="0%"></stop>
+            <stop stop-color="#ECE9E9" offset="99.5629371%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Version-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="No-knowledge-resource" transform="translate(-1124.000000, -441.000000)">
+            <g id="Group" transform="translate(1124.000000, 441.000000)">
+                <rect id="Rectangle-Copy-2" fill="url(#linearGradient-1)" x="102" y="12" width="98" height="118" rx="8"></rect>
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="12" width="98" height="118" rx="8"></rect>
+                <path d="M33.2164575,1.41791653 L102,12 L102,12 L102,130 L33.8933553,146.59008 C29.6005996,147.635751 25.2729494,145.003469 24.2272781,140.710714 C24.0763013,140.090914 24,139.455281 24,138.817358 L24,9.32489012 C24,4.90661212 27.581722,1.32489012 32,1.32489012 C32.4072626,1.32489012 32.8139306,1.35598933 33.2164575,1.41791653 Z" id="Rectangle-Copy" fill="url(#linearGradient-2)"></path>
+                <path d="M111.216457,1.41791653 L180,12 L180,12 L180,130 L111.893355,146.59008 C107.6006,147.635751 103.272949,145.003469 102.227278,140.710714 C102.076301,140.090914 102,139.455281 102,138.817358 L102,9.32489012 C102,4.90661212 105.581722,1.32489012 110,1.32489012 C110.407263,1.32489012 110.813931,1.35598933 111.216457,1.41791653 Z" id="Rectangle-Copy-3" fill="url(#linearGradient-2)" transform="translate(141.000000, 74.500000) scale(-1, 1) translate(-141.000000, -74.500000) "></path>
+                <g id="Group-4" transform="translate(36.000000, 19.201517)" fill="#D8D8D8" fill-rule="nonzero">
+                    <polygon id="Rectangle" points="-5.18696197e-13 2.64677169e-13 58.1594261 6 58.1594261 10.2015168 -5.18696197e-13 6"></polygon>
+                    <polygon id="Rectangle-Copy-4" points="-5.18696197e-13 14.7984832 58.1594261 19 58.1594261 23.2015168 -5.18696197e-13 20.7984832"></polygon>
+                    <polygon id="Rectangle-Copy-5" points="-5.18696197e-13 29.7984832 58.1594261 31.2564658 58.1594261 35.7984832 -5.18696197e-13 35.7984832"></polygon>
+                </g>
+                <g id="Group-4-Copy" transform="translate(138.500000, 37.000000) scale(-1, 1) translate(-138.500000, -37.000000) translate(109.000000, 19.000000)" fill="#D8D8D8" fill-rule="nonzero">
+                    <polygon id="Rectangle" points="0 0 58.1594261 6 58.1594261 10.2015168 0 6"></polygon>
+                    <polygon id="Rectangle-Copy-4" points="0 14.7984832 58.1594261 19 58.1594261 23.2015168 0 20.7984832"></polygon>
+                    <polygon id="Rectangle-Copy-5" points="0 29.7984832 58.1594261 31.2564658 58.1594261 35.7984832 0 35.7984832"></polygon>
+                </g>
+                <polygon id="Rectangle-Copy-6" fill="#D8D8D8" fill-rule="nonzero" points="36 63 94.1594261 63 94.1594261 118 36 127.179953"></polygon>
+                <polygon id="Rectangle-Copy-7" fill="#D8D8D8" fill-rule="nonzero" transform="translate(139.079713, 95.089976) scale(-1, 1) translate(-139.079713, -95.089976) " points="110 63 168.159426 63 168.159426 118 110 127.179953"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="142px" viewBox="0 0 200 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>activity_empty</title>
+    <defs>
+        <linearGradient x1="81.3796668%" y1="17.1321521%" x2="-22.330957%" y2="83.228259%" id="linearGradient-1">
+            <stop stop-color="#E4E4E4" offset="0%"></stop>
+            <stop stop-color="#B1B1B1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="89.1607041%" y1="7.04900198%" x2="21.5227076%" y2="108.28496%" id="linearGradient-2">
+            <stop stop-color="#EAEAEA" offset="0%"></stop>
+            <stop stop-color="#ECE9E9" offset="99.5629371%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Version-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="No-activity" transform="translate(-1124.000000, -441.000000)">
+            <g id="Group" transform="translate(1124.000000, 441.000000)">
+                <rect id="Rectangle-Copy-2" fill="url(#linearGradient-1)" x="102" y="12" width="98" height="118" rx="8"></rect>
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="12" width="98" height="118" rx="8"></rect>
+                <rect id="Rectangle-Copy" fill="url(#linearGradient-2)" x="43" y="0" width="118" height="142" rx="8"></rect>
+                <g id="walk" transform="translate(77.000000, 29.000000)" fill="#D8D8D8" fill-rule="nonzero">
+                    <path d="M28.9859155,15.3802817 C33.21552,15.3802817 36.6760563,11.9197048 36.6760563,7.69005073 C36.6758761,3.4605769 33.2153398,0 28.9859155,0 C24.7564912,0 21.2957746,3.4605769 21.2957746,7.69023096 C21.2957746,11.919885 24.756311,15.3802817 28.9859155,15.3802817 Z" id="Path"></path>
+                    <path d="M50.8732394,45.0272545 L50.8732394,37.2326689 C43.6335163,37.2326689 37.3722481,33.3354674 33.8502504,27.6843152 L30.132525,21.4487563 C28.7629815,19.1105816 26.2192553,17.7464789 23.4799849,17.7464789 C22.5017133,17.7464789 21.5232583,17.9414029 20.5449868,18.3310682 L0,26.7102432 L0,45.0274372 L7.82672277,45.0274372 L7.82672277,31.9715474 L14.6749906,29.0486006 L3.91326967,84 L12.1312644,84 L18.9795322,52.8218402 L27.3932546,60.6164258 L27.3932546,84 L35.2199773,84 L35.2199773,54.5756082 L27.1977103,46.5862813 L29.5457088,34.8944942 C34.6329777,41.1300531 42.2639728,45.0272545 50.8732394,45.0272545 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

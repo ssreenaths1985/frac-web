@@ -1,0 +1,90 @@
+{
+  "name": "frac",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/identity": "^1.2.5",
+    "@azure/storage-blob": "^12.5.0",
+    "@loadable/component": "^5.13.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "aws-sdk": "^2.737.0",
+    "axios": "^0.19.2",
+    "chart.js": "^3.2.1",
+    "crypto-js": "^4.0.0",
+    "cytoscape": "^3.15.2",
+    "cytoscape-autopan-on-drag": "^2.2.1",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "env-cmd": "^10.1.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "keycloak-js": "10.0.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "randomcolor": "^0.6.2",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^3.0.3",
+    "react-cytoscapejs": "^1.2.1",
+    "react-dom": "^16.13.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-toastify": "^6.0.8",
+    "react-virtualized": "^9.22.3",
+    "react-virtualized-auto-sizer": "^1.0.5",
+    "react-window": "^1.8.6",
+    "socket.io": "^3.1.2",
+    "socket.io-client": "^3.1.2",
+    "vertical-timeline-component-for-react": "^1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --testResultsProcessor ./node_modules/jest-sonar-reporter/index.js",
+    "eject": "react-scripts eject",
+    "build:staging": "yarn run build",
+    "build:production": "yarn run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.1",
+    "jest-sonar-reporter": "^2.0.0",
+    "react-test-renderer": "^17.0.1"
+  },
+  "jestSonar": {
+    "sonar56x": true,
+    "reportPath": "testResults",
+    "reportFile": "sonar-report.xml",
+    "indent": 4
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ]
+  }
+}

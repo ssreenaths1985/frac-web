@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="142px" viewBox="0 0 200 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>positions_empty</title>
+    <defs>
+        <linearGradient x1="81.3796668%" y1="17.1321521%" x2="-22.330957%" y2="83.228259%" id="linearGradient-1">
+            <stop stop-color="#E4E4E4" offset="0%"></stop>
+            <stop stop-color="#B1B1B1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="89.1607041%" y1="7.04900198%" x2="21.5227076%" y2="108.28496%" id="linearGradient-2">
+            <stop stop-color="#EAEAEA" offset="0%"></stop>
+            <stop stop-color="#ECE9E9" offset="99.5629371%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Version-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="No-position" transform="translate(-1124.000000, -441.000000)">
+            <g id="Group" transform="translate(1124.000000, 441.000000)">
+                <rect id="Rectangle-Copy-2" fill="url(#linearGradient-1)" x="102" y="12" width="98" height="118" rx="8"></rect>
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="12" width="98" height="118" rx="8"></rect>
+                <rect id="Rectangle-Copy" fill="url(#linearGradient-2)" x="43" y="0" width="118" height="142" rx="8"></rect>
+                <circle id="Oval" fill="#D8D8D8" cx="102" cy="53" r="20"></circle>
+                <path d="M102,73 C121.882251,73 138,89.117749 138,109 L138,109 L66,109 C66,89.117749 82.117749,73 102,73 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+            </g>
+        </g>
+    </g>
+</svg>

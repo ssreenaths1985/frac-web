@@ -1,0 +1,1022 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColumnThree should render the ColumnThree Component correctly 1`] = `
+<div
+  className="row p-0 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xs-8 m-0"
+>
+  <div
+    className="bordered custom-full-height-4 custom-body-bg col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9"
+    id="masterColumn3"
+  >
+    <div>
+      <div
+        className="p-2 mt-3"
+      >
+        <div
+          className="row mb-3"
+        >
+          <div
+            className="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-6"
+          >
+            <div
+              className="float-left"
+            >
+              <div
+                className="status-tag"
+              />
+            </div>
+          </div>
+          <div
+            className="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-6"
+          >
+            <div
+              className="col-12 float-right mt-2"
+            />
+          </div>
+        </div>
+        <form
+          onSubmit={[Function]}
+        >
+          <label>
+            Competency ID
+          </label>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-3 custom-fixed-width"
+          >
+            <input
+              aria-describedby="basicId"
+              aria-label="id"
+              className="form-control"
+              disabled={true}
+              id="expertID"
+              placeholder="CID"
+              type="text"
+              value=""
+            />
+          </div>
+          <label>
+            Competency Label*
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="The competency label is the name of the competency. It gives an idea of what the competency is about, and how it is commonly known (e.g. vigilance planning, decision making, project management)."
+          >
+            info
+          </span>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-3 custom-fixed-width"
+          >
+            <input
+              aria-describedby="basicLabel"
+              aria-label="label"
+              autoComplete="off"
+              className="form-control"
+              id="label"
+              name="competencyLabel"
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Competency Label"
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          <label>
+            Competency Description*
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="The competency description covers the elements and the scope of the competency (e.g. Identifies one’s own emotional triggers and controls one’s emotional responses. Maintains sense of professionalism and emotional restraint when provoked, faced with hostility or working under increased stress. It includes resilience and stamina despite prolonged adversities)."
+          >
+            info
+          </span>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width"
+          >
+            <textarea
+              autoComplete="off"
+              className="form-control"
+              id="description"
+              name="competencyDescription"
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Competency Description..."
+              required={true}
+              rows={4}
+              value=""
+            />
+          </div>
+          <p
+            className=" change-text-color-1"
+          >
+            Characters remaining: 
+            140
+          </p>
+          <label>
+            Competency Type*
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="Behavioural, domain, or functional"
+          >
+            info
+          </span>
+          <div
+            className="row pl-3 mt-2 mb-3"
+          >
+            <button
+              className="btn mr-3 type-button"
+              onClick={[Function]}
+              type="button"
+            >
+              Behavioural
+            </button>
+            <button
+              className="btn mr-3 type-button"
+              onClick={[Function]}
+              type="button"
+            >
+              Domain
+            </button>
+            <button
+              className="btn type-button"
+              onClick={[Function]}
+              type="button"
+            >
+              Functional
+            </button>
+          </div>
+          <label>
+            Competency Area*
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="Competency areas can be defined as the collection of competencies closely related to one another at a knowledge/subject level. Cluster the competency labels and identify the generic area in which these competency labels could be categorised (e.g. technical writing, rules-based copy editing, content writing and editing, research and information synthesis, and report writing will come under the competency area of Noting and Drafting (2-3 words))."
+          >
+            info
+          </span>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-3 custom-fixed-width"
+          >
+            <div
+              className="input-group"
+            >
+              <input
+                aria-describedby="basicLabel"
+                aria-haspopup="true"
+                aria-label="label"
+                autoComplete="off"
+                className="form-control"
+                data-toggle="dropdown"
+                id="caSearch"
+                name="competencyArea"
+                onChange={[Function]}
+                onKeyUp={[Function]}
+                placeholder="Competency Area"
+                type="text"
+                value=""
+              />
+              <div
+                className="dropdown-menu right-dropdown-menu-2 col-12 ca-dropdown"
+              >
+                <h4
+                  className="dropdown-item p-1 area-dd-header"
+                  data-target="#newAreaModal"
+                  data-toggle="modal"
+                  onClick={[Function]}
+                >
+                  Create new or view all areas
+                  <span
+                    className="material-icons float-right ca-navigation"
+                  >
+                    navigate_next
+                  </span>
+                </h4>
+                <hr />
+                <div
+                  id="caListMain"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            aria-labelledby="newAreaModalTitle"
+            className="modal fade fadeInUp"
+            id="newAreaModal"
+            role="dialog"
+            tabIndex="-1"
+          >
+            <div
+              className="modal-dialog modal-dialog-centered modal-lg"
+              role="document"
+            >
+              <div
+                className="modal-content"
+              >
+                <div
+                  className="row ml-0 w-100"
+                >
+                  <div
+                    className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-2"
+                  >
+                    <div
+                      className="modal-header"
+                    >
+                      <h5
+                        className="modal-title"
+                        id="newAreaModalLongTitle"
+                      >
+                        Choose competency area
+                      </h5>
+                    </div>
+                    <div
+                      className="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 mb-1 mt-1 pl-3"
+                      id="officerBucketsList"
+                    >
+                      <h6>
+                        Search by an area or a competency
+                      </h6>
+                      <input
+                        autoComplete="off"
+                        className="form-control mb-3 custom-search-5 custom-search-bar-3 mt-3"
+                        id="caSelectionSearch"
+                        name="search"
+                        onKeyUp={[Function]}
+                        placeholder="Search..."
+                        type="text"
+                      />
+                    </div>
+                    <p
+                      className="pl-3"
+                    >
+                      0 areas
+                    </p>
+                    <div
+                      className="modal-body remove-scroll-x"
+                    >
+                      <div
+                        id="caListOne"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 custom-content-background pt-2"
+                  >
+                    <div
+                      className="m-5 vertical-center-6"
+                      id="emptyState"
+                    >
+                      <center>
+                        <h1
+                          className="pb-2"
+                        >
+                          No area selected
+                        </h1>
+                        <p
+                          className="pb-2"
+                        >
+                          Choose from the list of areas
+                        </p>
+                        <img
+                          alt="empty list"
+                          src="../../img/empty/lists_empty.svg"
+                        />
+                      </center>
+                    </div>
+                    <div
+                      className="modal-body remove-scroll-x pt-0"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="modal-footer"
+                >
+                  <div
+                    className="row"
+                  >
+                    <button
+                      className="btn save-button mr-2"
+                      data-dismiss="modal"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      className="btn save-button mr-2 custom-primary-button"
+                      data-dismiss="modal"
+                      data-target="#newCreateAreaModal"
+                      data-toggle="modal"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Create new area
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            aria-labelledby="newCreateAreaModalTitle"
+            className="modal fade fadeInUp"
+            id="newCreateAreaModal"
+            role="dialog"
+            tabIndex="-1"
+          >
+            <div
+              className="modal-dialog modal-dialog-centered modal-lg"
+              role="document"
+            >
+              <div
+                className="modal-content"
+              >
+                <div
+                  className="row ml-0 w-100"
+                >
+                  <div
+                    className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-2"
+                  >
+                    <div
+                      className="modal-header"
+                    >
+                      <div
+                        className="row"
+                      >
+                        <span
+                          className="material-icons back-arrow-1"
+                          data-dismiss="modal"
+                          data-target="#newAreaModal"
+                          data-toggle="modal"
+                        >
+                          arrow_back
+                        </span>
+                        <h5
+                          className="modal-title"
+                          id="newCreateAreaModalLongTitle"
+                        >
+                          Create a competency area
+                        </h5>
+                      </div>
+                    </div>
+                    <div
+                      className="modal-body remove-scroll-x"
+                    >
+                      <div
+                        id=""
+                      >
+                        <dd>
+                          <div
+                            className="flex"
+                          >
+                            <div
+                              className="col-xs-12 col-sm-12 col-md-8 col-lg-10 col-xl-10 card mb-3 cca-card pointer-style on-select-card-3"
+                            >
+                              <div
+                                className="ml-0 mt-2 pt-1 pl-2"
+                              >
+                                <p
+                                  className="pt-1"
+                                >
+                                  *New area
+                                </p>
+                                <p
+                                  className="custom-sub-heading-1 custom-line-height-1 pb-2"
+                                >
+                                  0 competencies
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </dd>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 custom-content-background pt-2"
+                  >
+                    <div
+                      className="modal-header"
+                    >
+                      <div
+                        className="col-12 p-0"
+                      >
+                        <h6>
+                          Area label*
+                        </h6>
+                        <div
+                          className=""
+                        >
+                          <input
+                            aria-describedby="basicLabel"
+                            aria-label="label"
+                            autoComplete="off"
+                            className="form-control"
+                            id="newAreaLabel"
+                            name="newAreaLabel"
+                            onChange={[Function]}
+                            placeholder="Area Label"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="row ml-3 mb-3"
+                    >
+                      <button
+                        className="btn save-button-3 mr-2 custom-primary-button-disabled mb-2"
+                        disabled={true}
+                        type="button"
+                      >
+                        Submit
+                      </button>
+                      <button
+                        className="btn save-button-3 mb-2"
+                        data-dismiss="modal"
+                        type="button"
+                      >
+                        Discard
+                      </button>
+                    </div>
+                    <div
+                      className="modal-body remove-scroll-x pt-0"
+                    >
+                      <h6>
+                        Competencies in this area
+                      </h6>
+                      <button
+                        className="btn save-button-3 mr-2 custom-primary-button-disabled mt-2 mb-2"
+                        disabled={true}
+                        type="button"
+                      >
+                        Add to this competency
+                      </button>
+                      <span
+                        className="material-icons info-icon pl-2 align-middle pointer-style"
+                        title="Competency areas can be defined as the collection of competencies closely related to one another at a knowledge/subject level. Cluster the competency labels and identify the generic area in which these competency labels could be categorised (e.g. technical writing, rules-based copy editing, content writing and editing, research and information synthesis, and report writing will come under the competency area of Noting and Drafting (2-3 words))."
+                      >
+                        info
+                      </span>
+                      <div
+                        id="roleListTwo"
+                      >
+                        <p
+                          className="custom-sub-heading-1 pt-2"
+                        >
+                          No competencies are added to this area yet
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="modal-footer"
+                >
+                  <div
+                    className="row"
+                  >
+                    <button
+                      className="btn save-button mr-2"
+                      data-dismiss="modal"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="mt-3 ml-3"
+            id="officerColumn4"
+          >
+            <ul
+              className="nav nav-pills mb-3 mt-1 custom-officer-margin"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li
+                className="nav-item"
+              >
+                <a
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  className="nav-link active text-center custom-officer-margin"
+                  data-toggle="pill"
+                  href="#pills-competency"
+                  id="pills-home-tab"
+                  role="tab"
+                >
+                  Competency Levels
+                </a>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <a
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  className="nav-link text-center custom-officer-margin"
+                  data-toggle="pill"
+                  href="#pills-roles"
+                  id="pills-home-tab"
+                  role="tab"
+                >
+                  Associated Roles
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="tab-content m-2"
+            id="pills-tabContent"
+          >
+            <div
+              aria-labelledby="pills-home-tab"
+              className="tab-pane fade show active"
+              id="pills-competency"
+              role="tabpanel"
+            >
+              <p
+                className="change-text-color"
+              >
+                Create atleast 2 competency levels
+              </p>
+              <button
+                className="btn new-secondary-btn mt-2 mb-4"
+                data-target="#newCLModal"
+                data-toggle="modal"
+                onClick={[Function]}
+                type="button"
+              >
+                Create Level
+              </button>
+              <div
+                aria-hidden="true"
+                aria-labelledby="newCLModalTitle"
+                className="modal fade fadeInUp"
+                data-backdrop="static"
+                id="newCLModal"
+                role="dialog"
+                tabIndex="-1"
+              >
+                <div
+                  className="modal-dialog modal-dialog-centered"
+                  role="document"
+                >
+                  <div
+                    className="modal-content"
+                  >
+                    <div
+                      className="modal-header"
+                    >
+                      <h5
+                        className="modal-title"
+                        id="newCLModalLongTitle"
+                      >
+                        Create a Competency Level
+                      </h5>
+                    </div>
+                    <div
+                      className="modal-body remove-scroll-x"
+                    >
+                      <div
+                        className=""
+                      >
+                        <label>
+                          Level (1-10)*
+                        </label>
+                      </div>
+                      <div
+                        className="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 p-0 mb-3"
+                      >
+                        <div
+                          className="dropdown btn-group w-100"
+                          style={
+                            Object {
+                              "marginLeft": "0em",
+                            }
+                          }
+                        >
+                          <button
+                            className="btn custom-dropdown-menu-4 col-12"
+                            type="button"
+                          >
+                            Select a level
+                          </button>
+                          <button
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            className="btn dropdown-toggle dropdown-toggle-split custom-dropdown-toggle-menu"
+                            data-toggle="dropdown"
+                            type="button"
+                          >
+                            <span
+                              className="sr-only"
+                            >
+                              Toggle Dropdown
+                            </span>
+                          </button>
+                          <div
+                            aria-labelledby="modalDropdown"
+                            className="dropdown-menu right-dropdown-menu-2 col-12 limit-height-1"
+                            id="modalDropdown"
+                            role="menu"
+                          >
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="0"
+                              onClick={[Function]}
+                            >
+                              Level 1
+                            </button>
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="1"
+                              onClick={[Function]}
+                            >
+                              Level 2
+                            </button>
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="2"
+                              onClick={[Function]}
+                            >
+                              Level 3
+                            </button>
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="3"
+                              onClick={[Function]}
+                            >
+                              Level 4
+                            </button>
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="4"
+                              onClick={[Function]}
+                            >
+                              Level 5
+                            </button>
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="5"
+                              onClick={[Function]}
+                            >
+                              Level 6
+                            </button>
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="6"
+                              onClick={[Function]}
+                            >
+                              Level 7
+                            </button>
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="7"
+                              onClick={[Function]}
+                            >
+                              Level 8
+                            </button>
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="8"
+                              onClick={[Function]}
+                            >
+                              Level 9
+                            </button>
+                            <button
+                              className="dropdown-item p-1 custom-dropdown-item"
+                              key="9"
+                              onClick={[Function]}
+                            >
+                              Level 10
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <label>
+                        Level Label (Optional)
+                      </label>
+                      <span
+                        className="material-icons info-icon pl-2 align-middle pointer-style"
+                        title="The competency level is the proficiency level of the competency. These indicate levels of sophistication of the competency described. These are progressive in nature and normally given in an ascending order. Thus, Level 2 is a more sophisticated use of that particular competency, when compared to Level 1 and so on. There are typically anywhere between 3 and 5 levels of proficiency. If you are adding the competency in relation to a particular role, you must specify the proficiency level applicable to that role."
+                      >
+                        info
+                      </span>
+                      <div
+                        className="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 p-0 mb-3"
+                      >
+                        <input
+                          aria-describedby="basicLabel"
+                          aria-label="label"
+                          autoComplete="off"
+                          className="form-control"
+                          id="labelCL"
+                          name="competencyLevelLabel"
+                          onChange={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="Level Label"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                      <label>
+                        Level Description*
+                      </label>
+                      <span
+                        className="material-icons info-icon pl-2 align-middle pointer-style"
+                        title="The level description is an observable description of each proficiency level of a given competency. The higher the number of descriptors, the greater the understanding of the proficiency level. Recommend to have a minimum of 3 observable descriptors."
+                      >
+                        info
+                      </span>
+                      <div
+                        className="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 p-0 mb-1"
+                      >
+                        <textarea
+                          autoComplete="off"
+                          className="form-control"
+                          id="descriptionCL"
+                          name="competencyLevelDescription"
+                          onChange={[Function]}
+                          onKeyUp={[Function]}
+                          placeholder="Level Description..."
+                          rows={4}
+                          value=""
+                        />
+                      </div>
+                      <p
+                        className=" change-text-color"
+                      >
+                        0 characters (minimum 100 characters)
+                      </p>
+                    </div>
+                    <div
+                      className="modal-footer"
+                    >
+                      <div
+                        className="row"
+                      >
+                        <button
+                          className="btn save-button mr-2"
+                          data-dismiss="modal"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          className="btn save-button mr-2 custom-primary-button"
+                          disabled={true}
+                          type="button"
+                        >
+                          Create Level
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row col-12"
+              >
+                <div
+                  className="col-3 mb-4 p-0"
+                  id="officerBucketsList"
+                >
+                  <input
+                    autoComplete="off"
+                    className="form-control mb-4 custom-search-5 custom-search-bar-2"
+                    id="mappedCLSearch"
+                    name="search"
+                    onKeyUp={[Function]}
+                    placeholder="Search..."
+                    style={
+                      Object {
+                        "width": "110%",
+                      }
+                    }
+                    type="text"
+                  />
+                </div>
+                <div
+                  className="col-2"
+                />
+              </div>
+              <div
+                id="mappedCLList"
+              >
+                <div
+                  className="row col-12"
+                />
+              </div>
+              <div
+                aria-hidden="true"
+                aria-labelledby="newSubModalModalTitle"
+                className="modal fade fadeInUp"
+                id="newSubModal"
+                role="dialog"
+                tabIndex="-1"
+              >
+                <div
+                  className="modal-dialog modal-dialog-centered"
+                  role="document"
+                >
+                  <div
+                    className="modal-content"
+                  >
+                    <div
+                      className="modal-header"
+                    >
+                      <h5
+                        className="modal-title"
+                        id="newCLModalLongTitle"
+                      >
+                        Delete this competency level?
+                      </h5>
+                    </div>
+                    <div
+                      className="modal-footer"
+                    >
+                      <div
+                        className="row"
+                      >
+                        <button
+                          className="btn save-button mr-2"
+                          data-dismiss="modal"
+                          type="button"
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          className="btn save-button mr-2 custom-primary-button"
+                          data-dismiss="modal"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          Delete
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-labelledby="pills-home-tab"
+              className="tab-pane fade"
+              id="pills-roles"
+              role="tabpanel"
+            >
+              <div
+                className="row col-12"
+              >
+                <div
+                  className="col-3 mb-4 p-0"
+                  id="officerBucketsList"
+                >
+                  <input
+                    autoComplete="off"
+                    className="form-control mb-4 custom-search-5 custom-search-bar-2"
+                    id="mappedRoleSearch"
+                    name="search"
+                    onKeyUp={[Function]}
+                    placeholder="Search..."
+                    style={
+                      Object {
+                        "width": "110%",
+                      }
+                    }
+                    type="text"
+                  />
+                </div>
+                <div
+                  className="col-2"
+                />
+              </div>
+              <div
+                id="mappedRolesList"
+              >
+                <div
+                  className="row col-12"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="row mt-1 p-0"
+          >
+            <div
+              className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width"
+            >
+              0
+              0
+              0
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="newCancelModalTitle"
+    className="modal fade fadeInUp"
+    id="newCancelModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog modal-dialog-centered"
+      role="document"
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <h5
+            className="modal-title"
+            id="newCancelLongTitle"
+          >
+            Do you want to discard the changes?
+          </h5>
+        </div>
+        <div
+          className="modal-body remove-scroll-x"
+        >
+          <p>
+            All the unsaved changes will be discarded.
+          </p>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <div
+            className="row"
+          >
+            <button
+              className="btn save-button mr-2 danger-button-1"
+              data-dismiss="modal"
+              onClick={[Function]}
+              type="button"
+            >
+              Yes, discard
+            </button>
+            <button
+              className="btn save-button mr-2 custom-primary-button"
+              data-dismiss="modal"
+              type="button"
+            >
+              No
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ColumnSix
+    activityLogs={Array []}
+    customHeight="custom-full-height-4"
+    history={
+      Object {
+        "location": Object {
+          "hash": "",
+          "key": "zgfeb7",
+          "pathname": "/collection-competencies/",
+          "search": "",
+          "state": Object {
+            "id": 0,
+          },
+        },
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+        "key": "zgfeb7",
+        "pathname": "/collection-competencies/",
+        "search": "",
+        "state": Object {
+          "id": 0,
+        },
+      }
+    }
+    match={
+      Object {
+        "params": Object {
+          "id": 0,
+        },
+      }
+    }
+  />
+</div>
+`;

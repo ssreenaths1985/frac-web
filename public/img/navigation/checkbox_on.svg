@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Components/others/checkbox_on</title>
+    <g id="Components/others/checkbox_on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#2E3094" x="0" y="0" width="20" height="20" rx="2"></rect>
+        <g id="check-24px-(1)" fill="#FFFFFF" transform="translate(2.500000, 4.166667)">
+            <polygon id="Path" points="5 9.30833333 1.525 5.83333333 0.341666667 7.00833333 5 11.6666667 15 1.66666667 13.825 0.491666667"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColumnTwo should render the ColumnTwo Component correctly 1`] = `
+<div
+  className="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 bordered custom-full-height-4"
+  id="officerColumn3"
+>
+  <div
+    className="p-1"
+  >
+    <h1
+      className="mt-3 mb-4"
+    >
+      Search for a Knowledge Resources
+    </h1>
+    <div
+      className="row col-12 p-0"
+    >
+      <div
+        className="col-10"
+        id="officerBucketsList"
+      >
+        <input
+          aria-describedby="basic-addon1"
+          aria-label="Search"
+          autoComplete="off"
+          className="form-control mb-4 custom-search-5"
+          id="krSearch"
+          onKeyUp={[Function]}
+          placeholder="Search..."
+          style={
+            Object {
+              "width": "110%",
+            }
+          }
+          type="text"
+        />
+      </div>
+      <div
+        className="col-2"
+      />
+    </div>
+    <div
+      className="custom-div-size-1"
+    >
+      <div
+        id="krList"
+      />
+      <div
+        className=""
+        id="new"
+      />
+    </div>
+  </div>
+  <button
+    className="btn save-button p-3 push-bottom-3"
+    onClick={[Function]}
+    type="button"
+  >
+    New Knowledge Resource
+  </button>
+</div>
+`;

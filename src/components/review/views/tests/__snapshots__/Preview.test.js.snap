@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Review container node preview 1`] = `
+<div
+  className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 bordered undefined"
+  id="columnFiveMaster"
+>
+  <div>
+    <div
+      className="vertical-center col-12"
+      id="emptyState"
+    >
+      <center>
+        <h1
+          className="pb-2"
+        >
+          No 
+          item
+           selected
+        </h1>
+        <p
+          className="col-7 pb-2"
+        >
+          Please select a 
+          item
+           from the left side to see its details here
+        </p>
+      </center>
+    </div>
+  </div>
+</div>
+`;

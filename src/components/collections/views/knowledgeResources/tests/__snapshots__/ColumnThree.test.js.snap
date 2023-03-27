@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColumnThree should render the ColumnThree Component correctly 1`] = `
+<div
+  className="row p-0 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xsl-8 m-0"
+>
+  <div
+    className="bordered custom-full-height-4 custom-body-bg col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9"
+    id="masterColumn3"
+  >
+    <div>
+      <div
+        className="p-2 mt-2"
+      >
+        <div
+          className="row mb-3"
+        >
+          <div
+            className="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-6"
+          >
+            <div
+              className="float-left"
+            >
+              <div
+                className="status-tag"
+              />
+            </div>
+          </div>
+          <div
+            className="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-6"
+          >
+            <div
+              className="col-12 float-right mt-2"
+            />
+          </div>
+        </div>
+        <form
+          onSubmit={[Function]}
+        >
+          <label>
+            Knowledge Resource ID
+          </label>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-3 custom-fixed-width"
+          >
+            <input
+              aria-describedby="basicId"
+              aria-label="id"
+              className="form-control"
+              disabled={true}
+              id="expertID"
+              placeholder="KID"
+              type="text"
+              value=""
+            />
+          </div>
+          <label>
+            Knowledge Resource Label*
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="The name should be of two-word label. And each of these names will have many knowledge resources hence you need to add a parenthesis to make it unique. Where is is not possible to get a two-word label, you may go up to 3 words."
+          >
+            info
+          </span>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-3 custom-fixed-width"
+          >
+            <input
+              aria-describedby="basicLabel"
+              aria-label="label"
+              autoComplete="off"
+              className="form-control"
+              id="label"
+              name="krLabel"
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Knowledge Resource Label"
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          <label>
+            Knowledge Resource Description*
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="Description should explain about this knowledge resource."
+          >
+            info
+          </span>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width"
+          >
+            <textarea
+              autoComplete="off"
+              className="form-control"
+              id="description"
+              name="krDescription"
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Knowledge Resource Description..."
+              required={true}
+              rows={4}
+              value=""
+            />
+          </div>
+          <p
+            className=" change-text-color-1"
+          >
+            Characters remaining: 
+            140
+          </p>
+          <label>
+            Knowledge Resource URL
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="URL should be the reference to this knowledge resource."
+          >
+            info
+          </span>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width"
+          >
+            <div
+              className="row p-0"
+            >
+              <div
+                className="col-xs-12 col-sm-12 col-md-9 col-lg-10 col-lg-10 pr-0"
+              >
+                <input
+                  aria-describedby="basicURL"
+                  aria-label="url"
+                  autoComplete="off"
+                  className="form-control"
+                  id="url"
+                  name="krUrl"
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  placeholder="Knowledge Resource URL"
+                  type="url"
+                  value={Array []}
+                />
+              </div>
+              <div
+                className="col-xs-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 p-0"
+              >
+                <button
+                  className="btn solid-button-1 custom-width-2"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "-1em",
+                    }
+                  }
+                  type="button"
+                >
+                  ADD
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width table-heading-2 borderless p-0"
+          >
+            <table
+              className="table table-striped table-hover"
+            >
+              <tbody />
+            </table>
+          </div>
+          <label
+            htmlFor="exampleFormControlFile1"
+          >
+            Knowledge Resource Upload
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="Knowledge/ Resources are artefacts (documents, software, etc.) provided by the MDO for an individual to perform a certain activity (e.g. standard operating procedures (SOPs), manual of procedures, policy manual, legal policies (i.e. Acts), etc.)."
+          >
+            info
+          </span>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width"
+            id="officerColumn3"
+          >
+            <div
+              className="row p-0"
+            >
+              <div
+                className="col-xs-12 col-sm-12 col-md-8 col-lg-10 col-xl-10"
+              >
+                <div
+                  className="input-group mb-3 pointer-style custom-row-1"
+                  id="fileUpload"
+                >
+                  <input
+                    aria-describedby="basic-addon2"
+                    className="form-control"
+                    name="krFile"
+                    onChange={[Function]}
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                    type="file"
+                  />
+                  <input
+                    aria-describedby="basic-addon3"
+                    className="form-control pointer-style"
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    type="text"
+                    value="Browse for files"
+                  />
+                  <div
+                    className="input-group-append"
+                  >
+                    <span
+                      className="input-group-text material-icons"
+                      id="fileName"
+                    >
+                      publish
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xs-12 col-sm-12 col-md-4 col-lg-2 col-xl-2 p-0"
+              >
+                <button
+                  className="btn solid-button-1"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "-1.5em",
+                    }
+                  }
+                  type="button"
+                >
+                  UPLOAD
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width table-heading-2 borderless p-0"
+          >
+            <table
+              className="table table-striped table-hover"
+            >
+              <tbody />
+            </table>
+          </div>
+          <div
+            className="row mt-1 p-0"
+          >
+            <div
+              className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width"
+            >
+              0
+              0
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            aria-labelledby="newCancelModalTitle"
+            className="modal fade fadeInUp"
+            id="newCancelModal"
+            role="dialog"
+            tabIndex="-1"
+          >
+            <div
+              className="modal-dialog modal-dialog-centered"
+              role="document"
+            >
+              <div
+                className="modal-content"
+              >
+                <div
+                  className="modal-header"
+                >
+                  <h5
+                    className="modal-title"
+                    id="newCancelLongTitle"
+                  >
+                    Do you want to discard the changes?
+                  </h5>
+                </div>
+                <div
+                  className="modal-body remove-scroll-x"
+                >
+                  <p>
+                    All the unsaved changes will be discarded.
+                  </p>
+                </div>
+                <div
+                  className="modal-footer"
+                >
+                  <div
+                    className="row"
+                  >
+                    <button
+                      className="btn save-button mr-2 danger-button-1"
+                      data-dismiss="modal"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Yes, discard
+                    </button>
+                    <button
+                      className="btn save-button mr-2 custom-primary-button"
+                      data-dismiss="modal"
+                      type="button"
+                    >
+                      No
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <ColumnSix
+    activityLogs={Array []}
+    customHeight="custom-full-height-4"
+    history={
+      Object {
+        "location": Object {
+          "hash": "",
+          "key": "zgfeb7",
+          "pathname": "/collection-knowledge-resources/",
+          "search": "",
+          "state": Object {
+            "id": 0,
+          },
+        },
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+        "key": "zgfeb7",
+        "pathname": "/collection-knowledge-resources/",
+        "search": "",
+        "state": Object {
+          "id": 0,
+        },
+      }
+    }
+    match={
+      Object {
+        "params": Object {
+          "id": 0,
+        },
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="142px" viewBox="0 0 200 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>competency_empty</title>
+    <defs>
+        <linearGradient x1="81.3796668%" y1="17.1321521%" x2="-22.330957%" y2="83.228259%" id="linearGradient-1">
+            <stop stop-color="#E4E4E4" offset="0%"></stop>
+            <stop stop-color="#B1B1B1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="89.1607041%" y1="7.04900198%" x2="21.5227076%" y2="108.28496%" id="linearGradient-2">
+            <stop stop-color="#EAEAEA" offset="0%"></stop>
+            <stop stop-color="#ECE9E9" offset="99.5629371%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Version-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="No-competency" transform="translate(-1124.000000, -441.000000)">
+            <g id="Group" transform="translate(1124.000000, 441.000000)">
+                <rect id="Rectangle-Copy-2" fill="url(#linearGradient-1)" x="102" y="12" width="98" height="118" rx="8"></rect>
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="12" width="98" height="118" rx="8"></rect>
+                <rect id="Rectangle-Copy" fill="url(#linearGradient-2)" x="43" y="0" width="118" height="142" rx="8"></rect>
+                <g id="puzzle" transform="translate(69.000000, 33.000000)" fill="#D8D8D8" fill-rule="nonzero">
+                    <path d="M65.1425391,32.5714059 L65.1425391,13.5713661 C65.1425391,12.0722544 63.927319,10.8570293 62.4282136,10.8570293 L43.4284124,10.8570293 C43.4284124,4.86090063 38.5675321,0 32.5712695,0 C26.575007,0 21.7141267,4.86090063 21.7141267,10.8571883 L2.71432547,10.8571883 C1.21522007,10.8571883 0,12.0724135 0,13.5713661 L0,32.9567599 C0.884418115,32.7123154 1.79666812,32.5828567 2.71432547,32.5714059 C8.71058805,32.5714059 13.5714683,37.4323065 13.5714683,43.4285941 C13.5714683,49.4248818 8.71058805,54.2857824 2.71432547,54.2857824 C1.79666812,54.2741725 0.884418115,54.1447139 0,53.9002693 L0,73.2856632 C0,74.7847748 1.21522007,76 2.71432547,76 L22.0996382,76 C21.8551946,75.1155782 21.7257366,74.2033244 21.7142857,73.2856632 C21.7142857,67.2893755 26.575166,62.4284749 32.5714286,62.4284749 C38.5676911,62.4284749 43.4285714,67.2893755 43.4285714,73.2856632 C43.4171206,74.2031653 43.2875035,75.1154191 43.043219,76 L62.4285317,76 C63.9276371,76 65.1428571,74.7847748 65.1428571,73.2856632 L65.1428571,54.2856234 C71.1391197,54.2856234 76,49.4247228 76,43.4284351 C76,37.4321474 71.1388016,32.5714059 65.1425391,32.5714059 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

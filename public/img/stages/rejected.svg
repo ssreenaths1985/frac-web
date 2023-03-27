@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/stages/rejected</title>
+    <g id="Icons/stages/rejected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,2 C6.48577883,2 2,6.48577883 2,12 C2,17.5142212 6.48577883,22 12,22 C17.5142212,22 22,17.5142212 22,12 C22,6.48577883 17.5142212,2 12,2 Z" id="Path" fill="#D13924"></path>
+        <path d="M12,6 C8.688,6 6,8.688 6,12 C6,15.312 8.688,18 12,18 C15.312,18 18,15.312 18,12 C18,8.688 15.312,6 12,6 Z M7.2,12 C7.2,9.348 9.348,7.2 12,7.2 C13.11,7.2 14.13,7.578 14.94,8.214 L8.214,14.94 C7.578,14.13 7.2,13.11 7.2,12 Z M12,16.8 C10.89,16.8 9.87,16.422 9.06,15.786 L15.786,9.06 C16.422,9.87 16.8,10.89 16.8,12 C16.8,14.652 14.652,16.8 12,16.8 Z" id="Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

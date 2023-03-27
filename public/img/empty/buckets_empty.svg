@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="160px" viewBox="0 0 200 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>buckets_empty</title>
+    <defs>
+        <linearGradient x1="81.3796668%" y1="17.1321521%" x2="-22.330957%" y2="83.228259%" id="linearGradient-1">
+            <stop stop-color="#E4E4E4" offset="0%"></stop>
+            <stop stop-color="#B1B1B1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="89.1607041%" y1="7.04900198%" x2="21.5227076%" y2="108.28496%" id="linearGradient-2">
+            <stop stop-color="#EAEAEA" offset="0%"></stop>
+            <stop stop-color="#ECE9E9" offset="99.5629371%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="DoPT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MEPs---Empty-State" transform="translate(-723.000000, -298.000000)">
+            <g id="buckets_empty" transform="translate(723.000000, 298.000000)">
+                <rect id="Rectangle" fill="#C9C9C9" transform="translate(109.297749, 40.297749) rotate(-30.000000) translate(-109.297749, -40.297749) " x="79.7977494" y="10.7977494" width="59" height="59"></rect>
+                <rect id="Rectangle-Copy-7" fill="#DEDADA" transform="translate(92.297749, 40.297749) rotate(-30.000000) translate(-92.297749, -40.297749) " x="62.7977494" y="10.7977494" width="59" height="59"></rect>
+                <g id="Group" transform="translate(0.000000, 18.000000)">
+                    <path d="M110,12 L190.842047,12 C195.260325,12 198.842047,15.581722 198.842047,20 C198.842047,20.3595261 198.817811,20.7186434 198.769504,21.0749094 L184.938995,123.074909 C184.401155,127.041478 181.014405,130 177.011539,130 L110,130 C105.581722,130 102,126.418278 102,122 L102,20 C102,15.581722 105.581722,12 110,12 Z" id="Rectangle-Copy-2" fill="url(#linearGradient-1)"></path>
+                    <path d="M9.00526144,12 L90,12 C94.418278,12 98,15.581722 98,20 L98,122 C98,126.418278 94.418278,130 90,130 L21.1069564,130 C17.0532682,130 13.6402708,126.967997 13.1626745,122.942542 L1.06097955,20.9425419 C0.540428022,16.5550362 3.67521378,12.5762696 8.06271952,12.0557181 C8.37552919,12.0186051 8.69025784,12 9.00526144,12 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+                    <path d="M51.5314512,0 L152.572684,0 C156.990962,-6.883706e-15 160.572684,3.581722 160.572684,8 C160.572684,8.13870989 160.569077,8.27739632 160.561865,8.41591862 L154.002276,134.415919 C153.780974,138.666802 150.269735,142 146.013095,142 L59.6410994,142 C55.4223141,142 51.9285881,138.723909 51.6576181,134.513835 L43.5479699,8.51383512 C43.2641866,4.10468015 46.6084611,0.30030201 51.0176161,0.0165187121 C51.1886732,0.00550908122 51.3600401,1.80784455e-15 51.5314512,0 Z" id="Rectangle-Copy" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

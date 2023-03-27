@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KnowledgeInfoContainer should render the KnowledgeInfoContainer Component correctly 1`] = `
+<Fragment>
+  <div
+    className="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+  >
+    <HeaderSection
+      handleClick={[Function]}
+      history={
+        Object {
+          "location": Object {
+            "hash": "",
+            "key": "zgfeb7",
+            "pathname": "/collections",
+            "search": "",
+            "state": null,
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="d-xl-flex d-lg-flex d-md-flex d-sm-none col-xs-12 col-sm-12 col-md-12 col-lg-12 custom-padding-1"
+  >
+    <ColumnOne
+      getDeptValue={[Function]}
+      handleClick={[Function]}
+      history={
+        Object {
+          "location": Object {
+            "hash": "",
+            "key": "zgfeb7",
+            "pathname": "/collections",
+            "search": "",
+            "state": null,
+          },
+        }
+      }
+    />
+    <ColumnTwo
+      department=""
+      handleClick={[Function]}
+      history={
+        Object {
+          "location": Object {
+            "hash": "",
+            "key": "zgfeb7",
+            "pathname": "/collections",
+            "search": "",
+            "state": null,
+          },
+        }
+      }
+    />
+    <div
+      className="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 bordered custom-full-height-4 custom-body-bg"
+    >
+      <div
+        className="vertical-center d-none d-sm-block"
+        id="emptyState"
+      >
+        <center>
+          <h1
+            className="pb-2"
+          >
+            No knowledge resource selected
+          </h1>
+          <p
+            className="col-7 pb-2"
+          >
+            Please select a knowledge resource from the list to see its details here
+          </p>
+          <img
+            alt="empty knowledge/resource"
+            src="../../img/empty/knowledge_resource_empty.svg"
+          />
+        </center>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

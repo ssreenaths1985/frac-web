@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/File types/mail</title>
+    <g id="Icons/File-types/mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <g id="mail" transform="translate(2.000000, 2.000000)">
+                <polygon id="Path" fill="#EFEEEE" fill-rule="nonzero" points="3.33333333 0 3.33333333 20 15 20 20 15 20 0"></polygon>
+                <polygon id="Path" fill="#ABABAB" fill-rule="nonzero" points="15 15 15 20 20 15"></polygon>
+                <polygon id="Path" fill="#DEDEDD" fill-rule="nonzero" points="10 20 15 20 15 15"></polygon>
+                <rect id="Rectangle" fill="#2668CC" x="0" y="6" width="12" height="8"></rect>
+                <polygon id="Path-88" fill="#428DFF" points="0 11.5416967 0 14 12 14 12 11.5423588 6 8.46979922"></polygon>
+                <polygon id="Path-87" fill="#8EBBFF" points="7.07767178e-15 6 6 9.3896256 12 6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

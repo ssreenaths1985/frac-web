@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderSection should render the HeaderSection Component correctly 1`] = `
+<div
+  className="row"
+>
+  <BrandSection />
+  <TopNavBar
+    history={
+      Object {
+        "location": Object {
+          "hash": "",
+          "key": "zgfeb7",
+          "pathname": "/collections",
+          "search": "",
+          "state": null,
+        },
+      }
+    }
+    pathName="/collections"
+  />
+  <InfoNavBar
+    history={
+      Object {
+        "location": Object {
+          "hash": "",
+          "key": "zgfeb7",
+          "pathname": "/collections",
+          "search": "",
+          "state": null,
+        },
+      }
+    }
+  />
+</div>
+`;

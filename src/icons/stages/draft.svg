@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/stages/draft</title>
+    <g id="Icons/stages/draft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,2 C6.48577883,2 2,6.48577883 2,12 C2,17.5142212 6.48577883,22 12,22 C17.5142212,22 22,17.5142212 22,12 C22,6.48577883 17.5142212,2 12,2 Z" id="Path" fill-opacity="0.6" fill="#000000"></path>
+        <path d="M8,14.1252604 L8,16 L9.87473962,16 L15.4039717,10.4707679 L13.5292321,8.59602833 L8,14.1252604 Z M16.8537703,9.02096931 C17.0487432,8.82599639 17.0487432,8.51104013 16.8537703,8.31606721 L15.6839328,7.14622969 C15.4889599,6.95125677 15.1740036,6.95125677 14.9790307,7.14622969 L14.0641578,8.06110262 L15.9388974,9.93584224 L16.8537703,9.02096931 Z" id="Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

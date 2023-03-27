@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Review container collections filter 1`] = `
+<div
+  className="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 bordered custom-full-height-4"
+  id="officerColumn1"
+>
+  <div
+    className="pl-2 mt-4"
+  >
+    <div
+      id="mepList"
+    >
+      <NavLink
+        className=""
+        to={
+          Object {
+            "pathname": "/review/position",
+          }
+        }
+      >
+        <div
+          className="pl-3 pt-3 mb-2 list-selection-1 position-border-1 "
+        >
+          <h3>
+            Positions
+          </h3>
+        </div>
+      </NavLink>
+      <NavLink
+        className=""
+        to={
+          Object {
+            "pathname": "/review/role",
+          }
+        }
+      >
+        <div
+          className="pl-3 pt-3 mb-2 list-selection-1 role-border-1 "
+        >
+          <h3>
+            Roles
+          </h3>
+        </div>
+      </NavLink>
+      <NavLink
+        className=""
+        to={
+          Object {
+            "pathname": "/review/activity",
+          }
+        }
+      >
+        <div
+          className="pl-3 pt-3 mb-2 list-selection-1 activity-border-1 "
+        >
+          <h3>
+            Activities
+          </h3>
+        </div>
+      </NavLink>
+      <NavLink
+        className=""
+        to={
+          Object {
+            "pathname": "/review/competency",
+          }
+        }
+      >
+        <div
+          className="pl-3 pt-3 mb-2 list-selection-1 competency-border-1 "
+        >
+          <h3>
+            Competencies
+          </h3>
+        </div>
+      </NavLink>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColumnThree should render the ColumnThree Component correctly 1`] = `
+<div
+  className="row p-0 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xsl-8 m-0"
+>
+  <div
+    className="bordered custom-full-height-4 custom-body-bg col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9"
+    id="masterColumn3"
+  >
+    <div>
+      <div
+        className="p-2 mt-2"
+      >
+        <div
+          className="row mb-3"
+        >
+          <div
+            className="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-6"
+          >
+            <div
+              className="float-left"
+            >
+              <div
+                className="status-tag"
+              />
+            </div>
+          </div>
+          <div
+            className="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-6"
+          >
+            <div
+              className="col-12 float-right mt-2"
+            />
+          </div>
+        </div>
+        <form
+          onSubmit={[Function]}
+        >
+          <label>
+            Activity ID
+          </label>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-3 custom-fixed-width"
+          >
+            <input
+              aria-describedby="basicId"
+              aria-label="id"
+              className="form-control"
+              disabled={true}
+              id="expertID"
+              placeholder="AID"
+              type="text"
+              value=""
+            />
+          </div>
+          <label>
+            Activity Type*
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="The activity type is the name of the activity. It should summarise what the individual is doing (e.g. planning, coordinating, assessing). Recommend to use verbs + ing."
+          >
+            info
+          </span>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-3 custom-fixed-width"
+          >
+            <input
+              aria-describedby="basicLabel"
+              aria-label="label"
+              autoComplete="off"
+              className="form-control"
+              id="label"
+              name="activityLabel"
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Activity Label"
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          <label>
+            Activity Description*
+          </label>
+          <span
+            className="material-icons info-icon pl-2 align-middle pointer-style"
+            title="The activity description should begin with the objective (i.e. the milestone that is planned to be achieved), list the steps (if more than 1) to be carried out in a sequence, and answer the ‘what’, ‘when’ and ‘how’. Recommend to use verbs."
+          >
+            info
+          </span>
+          <div
+            className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width"
+          >
+            <textarea
+              autoComplete="off"
+              className="form-control"
+              id="description"
+              name="activityDescription"
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Activity Description..."
+              required={true}
+              rows={4}
+              value=""
+            />
+          </div>
+          <p
+            className=" change-text-color-1"
+          >
+            Characters remaining: 
+            140
+          </p>
+          <div
+            className="row mt-1 p-0"
+          >
+            <div
+              className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0 mb-1 custom-fixed-width"
+            >
+              0
+              0
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            aria-labelledby="newCancelModalTitle"
+            className="modal fade fadeInUp"
+            id="newCancelModal"
+            role="dialog"
+            tabIndex="-1"
+          >
+            <div
+              className="modal-dialog modal-dialog-centered"
+              role="document"
+            >
+              <div
+                className="modal-content"
+              >
+                <div
+                  className="modal-header"
+                >
+                  <h5
+                    className="modal-title"
+                    id="newCancelLongTitle"
+                  >
+                    Do you want to discard the changes?
+                  </h5>
+                </div>
+                <div
+                  className="modal-body remove-scroll-x"
+                >
+                  <p>
+                    All the unsaved changes will be discarded.
+                  </p>
+                </div>
+                <div
+                  className="modal-footer"
+                >
+                  <div
+                    className="row"
+                  >
+                    <button
+                      className="btn save-button mr-2 danger-button-1"
+                      data-dismiss="modal"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Yes, discard
+                    </button>
+                    <button
+                      className="btn save-button mr-2 custom-primary-button"
+                      data-dismiss="modal"
+                      type="button"
+                    >
+                      No
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <ColumnSix
+    activityLogs={Array []}
+    customHeight="custom-full-height-4"
+    history={
+      Object {
+        "location": Object {
+          "hash": "",
+          "key": "zgfeb7",
+          "pathname": "/collection-activities/",
+          "search": "",
+          "state": Object {
+            "id": 0,
+          },
+        },
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+        "key": "zgfeb7",
+        "pathname": "/collection-activities/",
+        "search": "",
+        "state": Object {
+          "id": 0,
+        },
+      }
+    }
+    match={
+      Object {
+        "params": Object {
+          "id": 0,
+        },
+      }
+    }
+  />
+</div>
+`;

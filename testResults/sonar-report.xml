@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="src/components/collections/containers/tests/ActivitiesInfoContainer.test.js">
+        <testCase name="ActivitiesInfoContainer should render the ActivitiesInfoContainer Component correctly" duration="13"/>
+        <testCase name="ActivitiesInfoContainer renders the ActivitiesInfoContainer children" duration="6"/>
+    </file>
+    <file path="src/components/collections/containers/tests/CollectionInfoContainer.test.js">
+        <testCase name="CollectionContainer should render the CollectionContainer Component correctly" duration="16"/>
+        <testCase name="CollectionContainer renders the CollectionContainer children" duration="6"/>
+    </file>
+    <file path="src/App.test.js">
+        <testCase name="renders without crashing" duration="13"/>
+        <testCase name="renders landing page" duration="8"/>
+    </file>
+    <file path="src/components/collections/containers/tests/PositionInfoContainer.test.js">
+    </file>
+    <file path="src/components/collections/containers/tests/CompetenciesInfoContainer.test.js">
+        <testCase name="CompetenciesInfoContainer should render the CompetenciesInfoContainer Component correctly" duration="16"/>
+        <testCase name="CompetenciesInfoContainer renders the CompetenciesInfoContainer children" duration="8"/>
+    </file>
+    <file path="src/components/collections/containers/tests/RolesInfoContainer.test.js">
+        <testCase name="RolesInfoContainer should render the RolesInfoContainer Component correctly" duration="18"/>
+        <testCase name="RolesInfoContainer renders the RolesInfoContainer children" duration="8"/>
+    </file>
+    <file path="src/components/collections/containers/tests/KnowledgeInfoContainer.test.js">
+        <testCase name="KnowledgeInfoContainer should render the KnowledgeInfoContainer Component correctly" duration="15"/>
+        <testCase name="KnowledgeInfoContainer renders the KnowledgeInfoContainer children" duration="8"/>
+    </file>
+    <file path="src/components/collections/views/knowledgeResources/tests/ColumnTwo.test.js">
+        <testCase name="ColumnTwo should render the ColumnTwo Component correctly" duration="3"/>
+    </file>
+    <file path="src/components/collections/views/knowledgeResources/tests/ColumnThree.test.js">
+        <testCase name="ColumnThree should render the ColumnThree Component correctly" duration="11"/>
+    </file>
+    <file path="src/components/collections/views/competencies/tests/ColumnTwo.test.js">
+        <testCase name="ColumnTwo should render the ColumnTwo Component correctly" duration="17"/>
+    </file>
+    <file path="src/components/collections/containers/tests/RolesInfoContainer.test.js">
+        <testCase name="RolesInfoContainer should render the RolesInfoContainer Component correctly" duration="16"/>
+        <testCase name="RolesInfoContainer renders the RolesInfoContainer children" duration="8"/>
+    </file>
+    <file path="src/components/collections/containers/tests/ActivitiesInfoContainer.test.js">
+        <testCase name="ActivitiesInfoContainer should render the ActivitiesInfoContainer Component correctly" duration="22"/>
+        <testCase name="ActivitiesInfoContainer renders the ActivitiesInfoContainer children" duration="7"/>
+    </file>
+    <file path="src/components/collections/views/activities/tests/ColumnTwo.test.js">
+        <testCase name="ColumnTwo should render the ColumnTwo Component correctly" duration="2"/>
+    </file>
+    <file path="src/components/collections/views/competencies/tests/ColumnThree.test.js">
+        <testCase name="ColumnThree should render the ColumnThree Component correctly" duration="18"/>
+    </file>
+    <file path="src/components/review/containers/tests/ReviewContainer.test.js">
+        <testCase name="Test demo" duration="1"/>
+    </file>
+    <file path="src/components/collections/containers/common/tests/HeaderSection.test.js">
+        <testCase name="HeaderSection should render the HeaderSection Component correctly" duration="2"/>
+    </file>
+    <file path="src/components/collections/containers/tests/CompetenciesInfoContainer.test.js">
+        <testCase name="CompetenciesInfoContainer should render the CompetenciesInfoContainer Component correctly" duration="7"/>
+        <testCase name="CompetenciesInfoContainer renders the CompetenciesInfoContainer children" duration="9"/>
+    </file>
+    <file path="src/components/review/containers/tests/ReviewContainer.test.js">
+    </file>
+    <file path="src/components/collections/containers/tests/PositionInfoContainer.test.js">
+    </file>
+</testExecutions>
